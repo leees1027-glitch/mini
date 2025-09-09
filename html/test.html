@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>리스트 테스트</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .text img {
+      display: block;
+      margin: 30px auto;
+      max-width: 300px;
+      height: auto;
+      border: 1px solid gray;
+    }
+
+    ol {
+      text-align: left;
+      display: inline-block;
+      margin: 0 auto;
+      list-style-position: outside;
+      padding-left: 20px;
+    }
+
+    ol li {
+      margin: 8px 0;
+      line-height: 1.6;
+      border: 1px dashed red; /* 디버깅용 */
+    }
+
+    .red {
+      color: red;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="text">
+    <img src="https://via.placeholder.com/300x100" alt="임시 이미지">
+  </div>
+
+  <ol start="4">
+    <li>휴대용 일반 전자기기의 리튬배터리 운송 규정 바로가기</li>
+    <li><span class="red">정격 전압(v)</span>이 확인되지 않는 경우 <span class="red">운송이 거절</span>됩니다.</li>
+  </ol>
+
+</body>
+</html>

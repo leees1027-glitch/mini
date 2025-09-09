@@ -1,0 +1,27 @@
+
+
+html {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+section {
+  padding: 40px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+button {
+  cursor: pointer;
+}

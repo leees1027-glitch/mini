@@ -1,0 +1,59 @@
+/* 전체 컨테이너 가운데 정렬 */
+.container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* 이미지 가운데 정렬 */
+.container .text img {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  height: auto;
+}
+
+/* 안내 문구 영역 아래 여백 */
+.notice-info {
+  margin-bottom: 20px;
+}
+
+.notice-box a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ol 리스트 중앙 정렬 + 숫자와 텍스트 균형있게 */
+.notice-info ol {
+  display: inline-block;          /* 블록이지만 부모에서 중앙 정렬 가능 */
+  text-align: left;               /* 내부 텍스트는 왼쪽 정렬 */
+  list-style-position: inside;   /* 숫자가 텍스트와 한 줄에 표시됨 */
+  padding-left: 1em;              /* 숫자와 텍스트 사이 적당한 간격 */
+  margin: 0 auto 20px auto;       /* 위, 아래 여백 조정 및 중앙 정렬 */
+  max-width: 600px;               /* 너비 제한 - 필요에 따라 조정 */
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* 리스트 항목 간 간격 */
+.notice-info ol li {
+  margin: 8px 0;
+}
+
+/* 강조 텍스트 */
+.red {
+  color: red;
+  font-weight: bold;
+  white-space: nowrap; /* 줄바꿈 방지 */
+}
+
+/* 제목 */
+.NT {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* 일반 문단 */
+p {
+  line-height: 1.6;
+}
